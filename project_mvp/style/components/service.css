@@ -1,0 +1,39 @@
+.service{
+    margin: 0 15%;
+    margin-top: 180px;
+    background-color: #fff;
+    box-shadow: 10px 20px 40px 0px #00000026;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 5% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service h2{
+    font-size: 48px;
+    color: #171C4B;
+    font-family: "MainFont900";
+}
+
+.service img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.service div{
+    width: 25%;
+}
+.service p{
+    font-size: 18px;
+    color:#171C4B;
+    line-height: 23px;
+}
+
+.main-person{
+    position: absolute;
+    right: 190px;
+    top: 120px;
+    z-index: -1;
+}

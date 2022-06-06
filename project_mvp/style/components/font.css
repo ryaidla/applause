@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "MainFont";
+    src: url("../../fonts/SanFranciscoProText/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+    font-family: "MainFont900";
+    src: url("../../fonts/SanFranciscoProText/SF-Pro-Display-Bold.otf");
+}

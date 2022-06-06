@@ -1,0 +1,110 @@
+.input-file input{
+    display: none;
+}
+.input-file{
+    color: 
+    #171C4B;
+}
+
+.profile-info{
+    box-shadow: -5px 10px 20px 0px #00000026;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 900px;
+    height: 650px;
+    border-radius: 24px;
+}
+
+.profile-info h2{
+    font-size: 36px;
+    font-family: "MainFont900";
+    color: #171C4B;
+
+}
+
+.profile-info p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #171C4B;
+    margin: 20px 0;
+}
+
+.edit-image{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid #D7D7D7;
+}
+
+.account-image{
+    background-color: #FFD0D0;
+    border-radius: 50%;
+}
+.edit-image-button {
+    margin-left: 30px;
+}
+.edit-image-button button{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.edit-image-button button:hover{
+    background-color: rgb(248, 247, 247);
+}
+
+.edit-image-button a{
+    color: #FD003A;
+    
+    
+}
+
+.editInfo{
+    margin-top: 50px;
+    display: flex;
+}
+
+.editInfo fieldset{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+
+.editInfo label{
+    margin-bottom:15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #171C4B;
+}
+
+.editInfo input{
+    color: #171C4B;
+    border: 1px solid #ECECEC;
+    box-shadow: -5px 10px 20px 0px #00000026;
+    padding: 10px;
+    width: 270px;
+    outline: none;
+}
+.account-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+.account-submit button{
+    background-color: #171C4B;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+}

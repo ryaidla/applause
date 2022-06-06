@@ -1,0 +1,56 @@
+.q-num{
+    margin-left: 5%;
+    font-size: 36px;
+    font-family: "MainFont900";
+    color: #171C4B;
+}
+
+.q-num span{
+    color: #fff;
+}
+
+.testing1{
+    padding:  0 10%;
+    margin-top: 100px;
+}
+
+.testing1 h2{
+    font-size: 36px;
+    font-family: "MainFont900";
+    color: #fff;
+}
+
+.testing1-variants{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+    flex-wrap:wrap;
+}
+
+.testing1-item{
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 30px;
+    box-shadow: -13px -14px 26px 10px rgba(34, 60, 80, 0.2);
+    transition: .4s;
+    width:35%;
+    
+}
+.testing1-item:hover{
+    background-color: rgb(245, 243, 243);
+}
+.testing1-item input{
+    opacity:0;
+}
+.testing1-item p{
+    color: #171C4B;
+    margin-top: 20px;
+}
+
+.prev-question button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+}

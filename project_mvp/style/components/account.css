@@ -1,0 +1,26 @@
+.account{
+    padding: 0 5%;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.account h2{
+    font-size: 36px;
+    font-family: "MainFont900";
+    color: #171C4B;
+    line-height: 43px;
+    margin-left: 15px;
+}
+.account-item{
+    font-size: 24px;
+    padding: 10px 15px;
+
+    color: #8D96A6;
+    margin: 15px 0;
+}
+.account-item.active{
+    color: #171C4B;
+    background-color: #D6D9FB;
+    border-radius: 50px;
+    font-family: "MainFont900";
+}
